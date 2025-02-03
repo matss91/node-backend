@@ -32,6 +32,7 @@ await confirmRegister({
             return res.status(201).json({ 
                 ok : true, 
                 msg :'Recibirás un mail con las instrucciones para completar tu registro',
+                data:userStore
             }) 
         } catch (error) {                 
             

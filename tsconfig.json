@@ -117,5 +117,6 @@
   "files": [
     "src/app.ts",
     "src/config/@types/express/index.d.ts"
-  ],
+  ],"include":["src/**/*"],
+"exclude":["src/public"]
 }
